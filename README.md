@@ -1,78 +1,162 @@
-Cricket Scoring Software (C++)
-Project Overview
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cricket Scoring Software</title>
 
-This project is a Cricket Scoring Software developed in C++ as part of our 2nd Semester Object-Oriented Programming (OOP) course.
-The program simulates the scoring process of a cricket match and allows users to manage runs, wickets, overs, extras, and player statistics through a console-based interface.
+<style>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f4f6f8;
+    margin:40px;
+    line-height:1.6;
+}
 
-The main goal of this project is to apply Object-Oriented Programming concepts such as classes, encapsulation, and modular design to build a practical software application.
+.container{
+    background:white;
+    padding:40px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
 
-Features
+h1{
+    color:#1a73e8;
+    border-bottom:3px solid #1a73e8;
+    padding-bottom:10px;
+}
 
-Team and player initialization
+h2{
+    color:#333;
+    margin-top:30px;
+}
 
-Ball-by-ball scoring system
+code{
+    background:#eee;
+    padding:4px 6px;
+    border-radius:5px;
+}
 
-Run tracking for individual players
+pre{
+    background:#272822;
+    color:#f8f8f2;
+    padding:15px;
+    border-radius:8px;
+    overflow-x:auto;
+}
 
-Wicket handling with different dismissal types
+ul{
+    margin-left:20px;
+}
 
-Over and ball counting
+.footer{
+    margin-top:40px;
+    padding-top:20px;
+    border-top:1px solid #ddd;
+    font-size:14px;
+}
+</style>
+</head>
 
-Extra runs (wide, no-ball, etc.)
+<body>
 
-Live scoreboard display
+<div class="container">
 
-Player statistics (runs and balls faced)
+<h1>🏏 Cricket Scoring Software (C++)</h1>
 
-Technologies Used
+<h2>Project Overview</h2>
+<p>
+This project is a <b>Cricket Scoring Software developed in C++</b> as part of our 
+<b>2nd Semester Object-Oriented Programming (OOP) course</b>. 
+The application simulates the scoring process of a cricket match and allows users 
+to track runs, wickets, overs, extras, and player statistics through a 
+console-based interface.
+</p>
 
-Language: C++
+<p>
+The goal of this project is to apply <b>Object-Oriented Programming concepts</b>
+such as classes, encapsulation, and modular program design while building
+a practical software system.
+</p>
 
-Programming Paradigm: Object-Oriented Programming (OOP)
+<h2>Features</h2>
+<ul>
+<li>Team and player initialization</li>
+<li>Ball-by-ball scoring system</li>
+<li>Run tracking for individual players</li>
+<li>Wicket handling with different dismissal types</li>
+<li>Over and ball counting</li>
+<li>Extra runs management</li>
+<li>Live scoreboard display</li>
+<li>Player statistics (runs and balls faced)</li>
+</ul>
 
-Environment: Console-based application
+<h2>Technologies Used</h2>
+<ul>
+<li><b>Language:</b> C++</li>
+<li><b>Programming Paradigm:</b> Object-Oriented Programming (OOP)</li>
+<li><b>Interface:</b> Console-based application</li>
+</ul>
 
-Project Structure
+<h2>How to Compile and Run</h2>
+
+<h3>Compile</h3>
+<pre>
+g++ cricket.cpp -o cricket
+</pre>
+
+<h3>Run</h3>
+<pre>
+./cricket
+</pre>
+
+<p><b>Windows:</b></p>
+<pre>
+cricket.exe
+</pre>
+
+<h2>Project Structure</h2>
+<pre>
 cricket-scoring-software/
 │
-├── cricket.cpp        # Main program file
-└── README.md          # Project documentation
+├── cricket.cpp
+└── README.html
+</pre>
 
-Learning Objectives
+<h2>Learning Objectives</h2>
+<ul>
+<li>Understanding classes and objects</li>
+<li>Using constructors and member functions</li>
+<li>Applying encapsulation</li>
+<li>Building modular programs</li>
+<li>Implementing real-world logic in software</li>
+</ul>
 
-This project helped us understand and implement:
+<h2>Contributors</h2>
+<ul>
+<li><b>Muhammad Haris Noor</b></li>
+<li><b>Kashaf Shehzadi</b></li>
+</ul>
 
-Classes and objects
-
-Constructors
-
-Encapsulation
-
-Member functions
-
-Program modularization
-
-Basic game logic implementation
-
-Contributors
-
-Muhammad Haris Noor
-
-Kashaf Shehzadi
-
-Supervisor
-
-Saba Mehmood
+<h2>Supervisor</h2>
+<p>
+<b>Saba Mehmood</b><br>
 Instructor – Object-Oriented Programming
+</p>
 
-Future Improvements
+<h2>Future Improvements</h2>
+<ul>
+<li>Graphical User Interface (GUI)</li>
+<li>Two-team match simulation</li>
+<li>Bowling statistics</li>
+<li>Match result calculation</li>
+<li>Saving match history to file</li>
+</ul>
 
-Graphical User Interface (GUI)
+<div class="footer">
+<p>© 2026 Cricket Scoring Software Project</p>
+</div>
 
-Two-team match simulation
+</div>
 
-Bowling statistics
-
-Match result calculation
-
-File storage for match history
+</body>
+</html>
