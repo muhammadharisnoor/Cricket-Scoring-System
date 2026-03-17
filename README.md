@@ -78,7 +78,7 @@ cricket-scoring-software/
 <li>Implementing real-world logic in software</li>
 </ul>
 
-<h2>Contributors</h2>
+<h2>Team Members</h2>
 <ul>
 <li><b>Muhammad Haris Noor</b></li>
 <li><b>Kashaf Shehzadi</b></li>
