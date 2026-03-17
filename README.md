@@ -3,58 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <title>Cricket Scoring Software</title>
-
-<style>
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background:#f4f6f8;
-    margin:40px;
-    line-height:1.6;
-}
-
-.container{
-    background:white;
-    padding:40px;
-    border-radius:10px;
-    box-shadow:0 5px 15px rgba(0,0,0,0.1);
-}
-
-h1{
-    color:#1a73e8;
-    border-bottom:3px solid #1a73e8;
-    padding-bottom:10px;
-}
-
-h2{
-    color:#333;
-    margin-top:30px;
-}
-
-code{
-    background:#eee;
-    padding:4px 6px;
-    border-radius:5px;
-}
-
-pre{
-    background:#272822;
-    color:#f8f8f2;
-    padding:15px;
-    border-radius:8px;
-    overflow-x:auto;
-}
-
-ul{
-    margin-left:20px;
-}
-
-.footer{
-    margin-top:40px;
-    padding-top:20px;
-    border-top:1px solid #ddd;
-    font-size:14px;
-}
-</style>
 </head>
 
 <body>
