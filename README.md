@@ -65,8 +65,8 @@ cricket.exe
 <pre>
 cricket-scoring-software/
 │
-├── cricket.cpp
-└── README.html
+├── cricketscorer.cpp
+└── README.md
 </pre>
 
 <h2>Learning Objectives</h2>
